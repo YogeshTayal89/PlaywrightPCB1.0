@@ -1,0 +1,26 @@
+{
+  "name": "playerclubbooth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.11.20",
+    "@reportportal/agent-js-playwright": "^5.1.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "moment": "^2.30.1",
+    "mssql": "^10.0.2",
+    "playwright": "^1.44.0"
+  },
+  "scripts": {
+    "setup": "npm install && npx playwright install",
+    "test": "npx playwright test --project=chrome",
+    "test:headless": "npx playwright test --project=chromeheadless",
+    "report": "npx playwright show-report"
+  }
+}

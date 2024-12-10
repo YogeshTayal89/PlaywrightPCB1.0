@@ -1,0 +1,161 @@
+{
+    "credentials": {
+        "testdata": [
+            {
+                "username": "IGTSYSTEMS",
+                "password": "123456",
+                "dbpm":"Server=192.168.131.49,1433;Database=PlayerManagement;User Id=sa;Password=IGTtest1;Encrypt=false;trustServerCertificate=true"
+            }
+        ]
+    },
+    "enrollment": {
+        "testdata": [
+            {
+                "firstname": "Marrry",
+                "middlename": "Mike",
+                "lastname":"Ford",
+                "preferredname":"Micci",
+                "taxid":"445675155",
+                "phonenumber":"9876543210",
+                "email":"sampleemail@gmail.com",
+                "frequentflyerinfo":"WRRVEFGJF",
+                "companyname":"Marry Json Pvt. Ltd.",
+                "companyposition":"QA",
+                "ssn":"445123456",
+                "crossref":"TestingData",
+                "country":"United States of America",
+                "state":"Alaska",
+                "idtype":"Drivers License",
+                "id":"44567515524",
+                "gender":"Male",
+                "suffix":"PhD",
+                "addressline":"Sample Address",
+                "addresstype":"Home",
+                "addresszipcode":"10001",
+                "addressstate":"New York",
+                "addresscity":"NEW YORK",
+                "phonetype":"Home",
+                "emailtype":"Primary Email",
+                "mattractype":"Movies",
+                "mlanguage":"English",
+                "maffiliationtype":"Diners Club",
+                "mflyertype":"Delta",
+                "mflyerdetails":"sample flyer details",
+                "mcompany":"company",
+                "mposition":"position",
+                "emptytext":" "
+                
+            }
+        ]
+    },
+    "search": {
+        "testdata": [
+            {
+                "firstname": "Dravid",
+                "middlename": "Kumar",
+                "lastname":"Rao",
+                "playerid":"127212",
+                "ssnid":"9991234567",
+                "licenseid":"",
+                "passportnumber":"",
+                "dob":"01/06/1972",
+                "yearofbirth":"1972",
+                "cardnumber":"12345665002238701262",
+                "lessthan3digit":"HH",
+                "morethan50char":"ppppppppppppppppppppppppppppppppppppppppppppppppppp",
+                "email":"AUTO@GMAIL.COM",
+                "postalcode":"89108",
+                "stateaddress":"LAS VEGAS, 89108, US",
+                "cityaddress":"LAS VEGAS, 89108, US",
+                "emptytext":" "
+            },
+            {
+                "firstname": "Smith",
+                "middlename": "Rocky",
+                "lastname":"Jack",
+                "playerid":"127541",
+                "ssnid":"",
+                "licenseid":"345671234233",
+                "passportnumber":"",
+                "dob":"03/06/1946",
+                "yearofbirth":"1946",
+                "cardnumber":"12345665002242693149",
+                "lessthan3digit":"DD",
+                "morethan50char":"",
+                "email":"jacj@gmail.com",
+                "postalcode":"10001",
+                "stateaddress":"USA, NEW YORK, 10001, US",
+                "cityaddress":"NEW YORK, 10001, US"
+            },
+            {
+                "firstname": "William",
+                "middlename": "Wolf",
+                "lastname":"Luna",
+                "playerid":"127288",
+                "passportnumber":"8958231063"
+            }
+        ]
+        
+    },
+
+    "redeemcoupons":{
+
+        "testdata":[
+
+            {
+                "playerid":"130826",
+                "rewardtype":"Rewards balance",
+                "rewardcompname":"$1.00 Auto Redeem",
+                "cashbacktype":"Points",
+                "cashbackcompname":"$1.00 Auto Redeem",
+                "primarycomptype":"Primary Comp",
+                "primarycompname":"$1.00 Auto Redeem",
+                "restrictedcommenttext":"SampleText",
+                "invalidcouponid":"23456",
+                "validcouponid":"425"
+            }
+            
+        ]
+    },
+
+    "printcard":{
+
+        "testdata":[
+            {
+                "playerid":"130826"
+            }
+        ]
+    },
+    "comments":{
+
+        "testdata":[
+            {
+                "playerid":"130826"
+            }
+        ]
+    },
+
+    "topparts":{
+
+        "testdata":[
+            {
+                "playerid":"130826",
+                "firstname": "Marrry",
+                "middlename": "Mike",
+                "lastname":"Ford",
+                "id":"44567515524"
+            }
+        ]
+    },
+
+    "relations":{
+
+        "testdata":[
+            {
+                "playerid":"130890",
+                "playeridtobelinked": "130981"
+            }
+        ]
+    }
+
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testResults version='1.0'>
+<httpSample t='35133'  s='true' lb='1 - Scenario Outline: As a user , I can delete a id'>
+<sample></sample>
+<responseData class='java.lang.String'>Passed. No issues observed during execution.</responseData>
+</httpSample>
+</testResults>
